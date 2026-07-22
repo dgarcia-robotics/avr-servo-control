@@ -8,7 +8,7 @@ Button-driven servo positioning on an ATmega328P using Timer1 hardware PWM confi
 
 **Objective 2 — Demonstrate embedded microprocessor system and circuit skills.**
 
-This is the standard industry approach to hobby-servo timing: let the 16-bit timer peripheral generate the pulse train in hardware while the CPU only updates the compare register.
+**How it meets the objective:** It configures Timer1 entirely through registers to generate an exact 50 Hz servo signal in hardware — precision timing that software delay loops can't match.
 
 ## How It Works
 
